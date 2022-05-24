@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amarante</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/bangers</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/knewave</item>
+        <item>@font/lily_script_one</item>
+        <item>@font/ribeye_marrow</item>
+        <item>@font/vast_shadow</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

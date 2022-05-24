@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffccb3"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Pscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:fontFamily="serif-monospace"
+        android:textSize="100px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Prank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000"
+        android:text="Rank : "
+        android:fontFamily="serif-monospace"
+        android:textSize="100px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/split"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/f" />
+
+    <ListView
+        android:id="@+id/games"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="183dp"
+        android:scrollbarSize="10dp" />
+
+</RelativeLayout>

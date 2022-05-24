@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8C00"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewSettingPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Privacy setting"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:background="#ffcc99"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Username"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="145dp"
+        android:background="#ffcc99"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/changUsername"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="75dp"
+        android:background="#CEF4A0"
+        android:fontFamily="@font/bigshot_one"
+        android:text="change"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/changPass"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="145dp"
+        android:background="#CEF4A0"
+        android:fontFamily="@font/bigshot_one"
+        android:text="change"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/split"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/d" />
+
+    <TextView
+        android:id="@+id/textViewSettingSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Sound setting"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+
+    <TextView
+        android:id="@+id/playSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="427dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Play"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/play"
+       android:layout_marginTop="340dp"
+        android:layout_marginLeft="50dp"
+        android:background="#00000000"
+        />
+
+    <ImageView
+        android:id="@+id/imPS"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/a" />
+
+
+    <TextView
+        android:id="@+id/stopSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="426dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Stop"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/pause"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="230dp"
+        android:background="#00000000"
+        />
+
+    <ImageView
+        android:id="@+id/imSS"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="340dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/p" />
+
+
+</RelativeLayout>

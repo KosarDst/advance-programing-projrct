@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6ffe6"
+    tools:context=".GameMainPage">
+
+    <TextView
+        android:id="@+id/opponents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="90px" />
+
+    <TextView
+        android:id="@+id/opponentTrick"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="#e6ffe6"
+        android:layout_marginLeft="165dp"
+        android:gravity="center_vertical"
+        android:text="VS"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="100px" />
+
+
+    <ListView
+        android:id="@+id/games"
+        android:layout_width="355dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="90dp">
+    </ListView>
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="75dp"
+        android:text="PLAY"
+        android:textSize="30dp"
+        android:background="#004d1a"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/bigshot_one"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

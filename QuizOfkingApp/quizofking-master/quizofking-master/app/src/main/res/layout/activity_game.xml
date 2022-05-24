@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8F8"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        android:textSize="85px" />
+
+    <TextView
+        android:id="@+id/show_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="#e6f2ff"
+        android:textColor="#010707"
+        android:textSize="80px" />
+
+
+    <RadioGroup
+        android:layout_width="329dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="200dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+   <!-- <RadioGroup
+        android:layout_width="329dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="176dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="135dp"
+            android:background="#B0E0E6" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="185dp"
+            android:background="#B0E0E6" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="235dp"
+            android:background="#B0E0E6" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="285dp"
+            android:background="#B0E0E6" />
+
+    </RadioGroup>
+-->
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="160dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="370dp"
+        android:background="#008080"
+        android:drawableRight="@drawable/ic_baseline_delete_24"
+        android:text="Delete two options"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+
+    <Button
+        android:id="@+id/newchance"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:background="#008080"
+        android:drawableRight="@drawable/ic_baseline_autorenew_24"
+        android:text="New Chance"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+
+    <Button
+        android:id="@+id/next_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="465dp"
+        android:background="#5F9EA0"
+        android:gravity="center"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/trick"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="240dp" />
+
+    <TextView
+        android:id="@+id/trick2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+
+</RelativeLayout>

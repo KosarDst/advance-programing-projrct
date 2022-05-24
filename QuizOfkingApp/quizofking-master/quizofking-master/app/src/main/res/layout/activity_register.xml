@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5A9BC"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Username"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="275dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextrePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="355dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="Confirm Password"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="450dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Registering Page"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/btnregisteractivity"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/vast_shadow"
+        android:text="Register"
+        android:background="#F6CEE3"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="#23FFEB3B"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#7986CB"
+        android:orientation="vertical"
+        android:backgroundTint="#AEFF9800"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:gravity="center"
+            android:text="my name"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/coin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="coin : "
+            android:textColor="#1C5A1E"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="200dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="score : "
+            android:textColor="#802121"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new game"
+        android:background="#EE6313"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <ListView
+        android:id="@+id/games"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
